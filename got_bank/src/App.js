@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <BankAccount/>
+        <BankAccount balance = "$2112" name = 'Carlos'/>
       </div>
     );
   }
